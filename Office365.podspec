@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Office365"
-  s.version      = "0.9.1"
+  s.version      = "0.9.2"
   s.summary      = "Client libraries for calling Office 365 service APIs from iOS apps."
   s.description  = <<-DESC
 		   Client libraries for calling Office 365 service APIs from iOS apps.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "**/Build/**/*"
   s.requires_arc = true
 
-  s.dependency "ADALiOS", "=1.2.2"
+  s.dependency "ADALiOS", "~> 1.2"
 
   # --- Subspecs ------------------------------------------------------------------#
 
