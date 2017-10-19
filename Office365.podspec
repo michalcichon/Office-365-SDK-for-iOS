@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "**/Build/**/*"
   s.requires_arc = true
 
-  s.dependency "ADALiOS", "~> 1.2"
+  s.dependency "ADAL", "~> 1.2"
 
   # --- Subspecs ------------------------------------------------------------------#
 
